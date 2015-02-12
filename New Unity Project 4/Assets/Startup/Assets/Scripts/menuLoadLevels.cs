@@ -17,6 +17,9 @@ public class menuLoadLevels : MonoBehaviour {
 	public void onClickChooseLevel() {
 		Application.LoadLevel("chooseLevel");
  }
+	public void onClickPlayAoA() {
+		Application.LoadLevel ("AOA");
+	}
 	public void musicToggle(){
 		if (musicBtn.image.sprite == musicOff) {
 			musicBtn.image.sprite = musicOn;
